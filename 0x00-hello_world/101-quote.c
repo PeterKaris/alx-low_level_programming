@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-/** 
+/**
  * main - Unix is basically a simple operating system
  * Return: 0 (Success)
  */
