@@ -21,19 +21,19 @@ int main(void)
 
 	for (z = y + 1; z <= '9'; z++)
 	{
-	if ((y !=x) !=z)
+	if ((y != x) != z)
 	{
 	putchar(x);
 	putchar(y);
 	putchar(z);
 	if (x == '7' && y == '8')
-	break:
-	putchar(',')
-	putchar(' ')
+	break;
+	putchar(',');
+	putchar(' ');
 	}
 	}
 	}
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
