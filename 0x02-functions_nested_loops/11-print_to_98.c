@@ -4,7 +4,7 @@
 /**
  * print_to_98 - prints natural numbers from n to 98,
  * followed by new line
- * n: print from this number
+ * @n: print from this number
  */
 void print_to_98(int n)
 {
@@ -19,7 +19,7 @@ void print_to_98(int n)
 			else if (i == 98)
 				printf("%d\n", i);
 		}
-	}else if (n >= 98)
+	} else if (n >= 98)
 	{
 		for (j = n; j >= 98; j--)
 		{
